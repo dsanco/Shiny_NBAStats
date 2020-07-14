@@ -1,0 +1,5 @@
+*.xlsx
+*.csv
+nba_stats/__pycache__/
+nba_stats/.ipynb_checkpoints/
+*.ipnyb
