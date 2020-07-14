@@ -12,4 +12,6 @@ On the terminal type in the command `python EfficiencyCalculation.py` an excel f
 To modify the weights of the statistical categories you can modify the function call on EfficiencyCalculation.py on line 67 of the original code.
 
 The current calculation is below you may change the weights of the stats:
-```df_nba_ratings['A_Score'] = df_nba_ratings.apply(lambda x: calc_ascore(x, 1, 1.5, 1.5, 2, 2, 2, 1, 1, 2), axis = 1)
+```
+df_nba_ratings['A_Score'] = df_nba_ratings.apply(lambda x: calc_ascore(x, 1, 1.5, 1.5, 2, 2, 2, 1, 1, 2), axis = 1)
+```
